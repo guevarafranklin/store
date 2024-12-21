@@ -20,7 +20,7 @@ servers:
 proxy:
   ssl: true
   host: store.focusventures.io
-  app_port: 3000
+  
 
 # Credentials for your image host.
 registry:
