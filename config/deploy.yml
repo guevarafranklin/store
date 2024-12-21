@@ -7,7 +7,7 @@ image: tecguevara/store
 # Deploy to these servers.
 servers:
   web:
-    - 24.199.75.140
+    - 192.168.1.16
   # job:
   #   hosts:
   #     - 192.168.0.1
