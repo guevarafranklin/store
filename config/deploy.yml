@@ -7,7 +7,7 @@ image: tecguevara/store
 # Deploy to these servers.
 servers:
   web:
-    - 192.168.1.16
+    - 24.199.75.140
   # job:
   #   hosts:
   #     - 192.168.0.1
@@ -18,7 +18,7 @@ servers:
 #
 # Note: If using Cloudflare, set encryption mode in SSL/TLS setting to "Full" to enable CF-to-app encryption.
 proxy:
-  ssl: true
+  ssl: false
   host: store.focusito.com
   
 
@@ -89,8 +89,8 @@ builder:
   #   - RAILS_MASTER_KEY
 
 # Use a different ssh user than root
-ssh:
-  user: fguevara
+# ssh:
+#  user: fguevara
 
 # Use accessory services (secrets come from .kamal/secrets).
 # accessories:
